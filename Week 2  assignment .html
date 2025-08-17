@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutha Hotel - Enhanced Content & Booking Form</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #e6f7ff;
+            color: #333;
+        }
+        main {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #004d66;
+            border-bottom: 2px solid #b3e0ff;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        h3 {
+            color: #007399;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        ul, ol {
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background-color: #f0faff;
+        }
+        th, td {
+            border: 1px solid #cceeff;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #007399;
+            color: white;
+            font-weight: bold;
+        }
+        img, video {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-top: 15px;
+            border-radius: 8px;
+            border: 2px solid #004d66;
+        }
+        audio {
+            display: block;
+            width: 100%;
+            margin-top: 15px;
+        }
+        form {
+            background-color: #f0faff;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #cceeff;
+        }
+        fieldset {
+            border: 1px solid #007399;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+        }
+        legend {
+            font-weight: bold;
+            color: #004d66;
+            padding: 0 10px;
+            font-size: 1.2em;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #004d66;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="number"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 18px;
+            border: 1px solid #b3e0ff;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 1em;
+        }
+        input[type="checkbox"] {
+            width: auto;
+            margin-right: 10px;
+        }
+        button[type="submit"] {
+            background-color: #007399;
+            color: white;
+            padding: 14px 25px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+        button[type="submit"]:hover {
+            background-color: #005a73;
+        }
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <h1>Welcome to Mutha Hotel, Thika</h1>
+
+        <section>
+            <h2>Discover Our Amenities</h2>
+            <p>Experience the finest hospitality in the heart of Thika. Mutha Hotel offers a unique blend of modern luxury and local charm.</p>
+
+            <h3>Our Signature Experiences</h3>
+            <p>From fine dining to serene relaxation, our hotel has something for everyone. Our top experiences include:</p>
+            <ul>
+                <li><strong>Culinary Delights:</strong> A diverse menu of local and international cuisines.</li>
+                <li><strong>Recreation:</strong>
+                    <ol>
+                        <li>A sparkling outdoor swimming pool.</li>
+                        <li>Fully equipped modern gym.</li>
+                        <li>A serene garden for morning walks.</li>
+                    </ol>
+                </li>
+                <li><strong>Event Hosting:</strong> State-of-the-art conference and wedding facilities.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Room Rates and Availability</h3>
+            <p>Find the perfect room for your stay. All our rooms are designed for your comfort.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Room Type</th>
+                        <th>Occupancy</th>
+                        <th>Features</th>
+                        <th>Nightly Rate (KES)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Single Room</td>
+                        <td>1 Adult</td>
+                        <td>Comfortable bed, free Wi-Fi, en-suite bathroom</td>
+                        <td>8,000</td>
+                    </tr>
+                    <tr>
+                        <td>Double Room</td>
+                        <td>2 Adults</td>
+                        <td>Spacious bed, free Wi-Fi, balcony view</td>
+                        <td>12,500</td>
+                    </tr>
+                    <tr>
+                        <td>Family Suite</td>
+                        <td>Up to 4 Guests</td>
+                        <td>Separate living area, two bedrooms, kitchenette</td>
+                        <td>25,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="text-center">
+            <h3>Visual Tour of Our Grounds</h3>
+            <p>Get a glimpse of our beautiful hotel through images and media.</p>
+            
+            <img src="https://placehold.co/600x400/004d66/white?text=Mutha+Hotel+Gardens" alt="A lush, well-maintained garden at Mutha Hotel." title="Mutha Hotel's serene gardens.">
+            
+            <video controls poster="https://placehold.co/600x400/007399/white?text=Tour+Video" aria-label="A promotional video showcasing the hotel's features.">
+                <source src="mutha-hotel-tour.mp4" type="video/mp4">
+                <p>Your browser does not support the video tag. Please <a href="mutha-hotel-tour.mp4">download the video</a> to view it.</p>
+            </video>
+
+            <audio controls aria-label="The sound of a water fountain at the hotel." src="fountain-sound.mp3">
+                <p>Your browser does not support the audio element.</p>
+            </audio>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Online Booking & Inquiry Form</h2>
+            <p>Please use this form to book your stay or make an inquiry. All required fields are marked.</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Guest Information</legend>
+                    
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="fullName" placeholder="Jane Nderitu" required autocomplete="name">
+                    
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="jane.nderitu@example.com" required autocomplete="email">
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="e.g., 0712345678" title="Phone number must be a 10-digit number (e.g., 0712345678)" required>
+                    
+                    <label for="checkin-date">Check-in Date:</label>
+                    <input type="date" id="checkin-date" name="checkinDate" required min="2025-08-17">
+                    
+                    <label for="guests">Number of Guests:</label>
+                    <input type="number" id="guests" name="guests" min="1" max="10" value="1" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Booking Details</legend>
+                    
+                    <label for="room-type">Preferred Room Type:</label>
+                    <select id="room-type" name="roomType" required>
+                        <option value="">-- Please Select a Room --</option>
+                        <option value="single">Single Room</option>
+                        <option value="double">Double Room</option>
+                        <option value="suite">Family Suite</option>
+                    </select>
+                    
+                    <label for="stay-duration">Duration of Stay (Nights):</label>
+                    <input type="number" id="stay-duration" name="stayDuration" min="1" max="30" value="1" required>
+
+                    <p>Do you require airport transfer?</p>
+                    <div>
+                        <input type="radio" id="transfer-yes" name="airport-transfer" value="yes">
+                        <label for="transfer-yes">Yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="transfer-no" name="airport-transfer" value="no" checked>
+                        <label for="transfer-no">No</label>
+                    </div>
+                    
+                    <label>
+                        <input type="checkbox" id="newsletter" name="newsletter" checked>
+                        Yes, I would like to receive updates and special offers.
+                    </label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Additional Requests</legend>
+                    <label for="special-requests">Special Requests (e.g., dietary needs, room preferences):</label>
+                    <textarea id="special-requests" name="specialRequests" rows="4" placeholder="Enter any special requests here..." readonly>This section is for special requests only and cannot be edited at this time. Please contact us directly for assistance.</textarea>
+                </fieldset>
+
+                <button type="submit">Submit Booking Inquiry</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
